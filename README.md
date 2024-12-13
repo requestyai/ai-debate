@@ -1,6 +1,28 @@
 # LLM Streaming Chat Comparison
 
-This Next.js project lets you compare responses from two different LLM models side-by-side, using the **Requesty Router**. It streams responses in real-time, allowing you to watch the output as it’s generated. Additionally, it provides detailed statistics such as token usage, time-to-first-byte (TTFB), and total response time.
+AI Debate Club is an experimental Next.js application that orchestrates and displays a dynamic, streamed debate between two AI language models. It allows you to select two models, pick a debate topic, and then watch as they respond to each other’s arguments in real-time, character-by-character. This setup creates the feeling of a live, intellectual sparring match between two cutting-edge AI assistants, bringing a unique and engaging experience to AI enthusiasts, developers, and researchers.
+
+Key Features
+Multiple AI Models:
+Choose from a wide array of models—Anthropic Claude variants, Mistral-based models, Together-supported models, Gemini, and GPT-based models. By mixing and matching models, you can explore differences in reasoning, style, tone, and argumentation.
+
+Character-by-Character Streaming:
+Rather than waiting for a full response to load at once, the debate is streamed token-by-token, allowing you to witness the models “typing” their arguments in real time. This delivers a more dramatic and immersive experience, making the debate feel alive and spontaneous.
+
+Structured Rounds:
+The debate is organized into three structured rounds. Each round consists of a turn-by-turn exchange:
+
+Round 1: Model A’s opening argument followed by Model B’s response.
+Round 2: Model A’s counterargument followed by Model B’s counterargument.
+Round 3: Model A’s final remarks followed by Model B’s closing statement.
+This ensures a coherent debate flow and gives each model multiple opportunities to reinforce or refine their positions.
+
+Side-by-Side Comparison:
+The user interface presents Model A’s and Model B’s responses side-by-side, making it easy to compare their arguments at a glance. As the debate progresses through rounds, you can see each model’s statements aligned against the other’s, providing an immediate and intuitive understanding of their differing viewpoints.
+
+
+
+
 
 ---
 
@@ -57,3 +79,4 @@ This Next.js project lets you compare responses from two different LLM models si
   ```
   Open http://localhost:3000 in your browser.
 
+# ai-debate
