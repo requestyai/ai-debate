@@ -1,8 +1,12 @@
-'use client';
-import React from 'react';
-
-import ChatPage from "./components/ChatPage";
+import DebateForm from './components/DebateForm';
 
 export default function Page() {
-  return <ChatPage />;
+  return (
+    <div className="wrapper">
+      <div className="header">AI Debate Club</div>
+      <div className="main">
+        <DebateForm />
+      </div>
+    </div>
+  );
 }

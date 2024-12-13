@@ -1,18 +1,17 @@
-import React from 'react';
+import './globals.css';
+import { ReactNode } from 'react';
 
 export const metadata = {
-  title: 'OpenAI Streaming Chat Comparison',
-  description: 'Compare different models and stream responses.'
-}
+  title: 'AI Debate Club',
+  description: 'Two AI models debate a topic of your choice.',
+};
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

@@ -1,5 +1,5 @@
 {
-  "name": "my-openai-streaming-chat",
+  "name": "ai-debate-club",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -7,17 +7,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "antd": "^5.8.6",
-    "framer-motion": "^10.12.16",
-    "next": "13.4.10",
-    "openai": "^4.0.0",
-    "react": "^18.2.0",
+    "next": "13.4.19",
+    "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^5.2.2"
+    "openai": "4.0.0"
   },
   "devDependencies": {
     "@types/node": "20.4.8",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.7"
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.7",
+    "typescript": "5.2.2"
   }
 }
