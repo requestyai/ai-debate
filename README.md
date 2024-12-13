@@ -1,4 +1,4 @@
-# OpenAI Streaming Chat Comparison
+# LLM Streaming Chat Comparison
 
 This is a Next.js project that allows you to compare responses from two different models served via the Requesty.ai router. It streams responses in real-time and displays stats such as TTFB, total time, and token counts.
 
