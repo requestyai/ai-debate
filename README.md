@@ -37,16 +37,23 @@ This Next.js project lets you compare responses from two different LLM models si
    ```bash
    git clone https://github.com/yourusername/my-openai-streaming-chat.git
    cd my-openai-streaming-chat
+   ```
 
 2. **Install Dependencies**
+ ```bash
   npm install
+  ```
 
 3. **Set Up Environment Variables**
+ ```bash
   cp .env.example .env
+  ```
   Edit .env:
   INSIGHT_API_KEY=your_requesty_api_key
 
 3. **Run the Development Server**
+ ```bash
   npm run dev
+  ```
   Open http://localhost:3000 in your browser.
 
